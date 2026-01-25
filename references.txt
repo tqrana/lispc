@@ -1,0 +1,2 @@
+https://www.buildyourownlisp.com/chapter1_introduction#about
+https://en.cppreference.com/w/c.html
