@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 // user input
 static int input[2048];
 
@@ -11,6 +13,8 @@ int main(int argc, char** argv)
 	fputs("lispc> ", stdout);
 	fgets(input, 2048, stdin);
 
-	puts("Your message %d", input);
+	puts("Your message %s", input);
     }
+
+    return 0;
 }
